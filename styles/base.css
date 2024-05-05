@@ -1,26 +1,39 @@
-img{
-    width: 100px;
-    border-radius: 4%;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: Raleway, sans-serif;
+  box-sizing: border-box;
+  color: #777;
 }
 
-header{
+.header .pimg {
+  width: 6em;
+}
+
+.header {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
-}
-.name{
-  text-align:center;
-  margin-top: 15%;
-  font-size: 2rem;
-  font-family: ;
-  justify-content: space-around;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-nav{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
+.header .name {
+  align-self: center;
+  font-family: Oswald;
+  font-size: 1.1em;
+  font-weight: 500;
 }
+
+
 ul{
   list-style: none;
+}
+
+.ul {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+.ul li{
+  grid-area: span;
 }
