@@ -1,0 +1,43 @@
+@media screen and (min-width: 820px) {
+  header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .name{
+    text-align: center;
+  }
+  nav {
+    background-color: #333; /* Background color of the navigation bar */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+
+  }
+  
+  nav ul li a {
+    display: flex;
+    color: white; /* Text color of the links */
+    text-decoration: none; /* Remove underlines from links */
+    margin: auto 50px;
+    padding: 10px 100px; /* Add padding around the links */
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  section .card  {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+
+  
+  }
