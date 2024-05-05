@@ -1,37 +1,11 @@
-@media screen and (min-width: 820px){
-  html, body{
-    margin: 0;
-    padding: 0;
-    
-    
+@media screen and (min-width:800px){
+  nav ul{
+      display: flex; 
+      flex-direction: row;
+      justify-content: space-around;
   }
-  
-  .nav ul{
-    margin: 0;
-  }
-  .nav li{
-    display: inline;
-  }
-   
-  .nav a{
-    display: inline-block;
-    padding: .5em;
-    color:white;
-    text-decoration: none;
-  }
-  
-  .nav a:hover{
-    background-color: rgba(19, 174, 52, 0.855)
-  }
-  .main-nav li{
-    padding: 0 5%;
-  }
-  .main-nav{
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3));
+  #cards{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
   }
 }
-
-
