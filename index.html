@@ -1,55 +1,83 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[Sayal Neupane]-WDD 230-Web Frontend Development</title>
+    <meta name="author" content="Sayal Neupane" />
+    <meta
+      name="description"
+      content="Home page for WDD 230, lesson 1, day 3."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
     <title>Sayal Neupane - WDD 230 - Web Frontend Development</title>
-</head>
-<body>
-  <div id="content">
+  </head>
+  <body>
+    <div id="content">
       <header>
-          <div id="head">
-            <img src="images/profilepicture.jpeg" alt="Profile of sayal">
-            <h1>Sayal Neupane</h1>
-          </div>
-       <nav>
-           <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="">Site Plan</a></li>
-               <li><a href="">Chamber</a></li>
-               <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
-               <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm?lang=eng" target="_blank">Scripture</a></li>
+        <div id="head">
+          <img src="images/profilepicture.jpeg" alt="Profile of sayal" />
+          <h1>Sayal Neupane</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="">Site Plan</a></li>
+            <li><a href="">Chamber</a></li>
+            <li>
+              <a href="https://www.byui.edu" target="_blank">BYU-Idaho</a>
+            </li>
+            <li>
+              <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/bofm?lang=eng"
+                target="_blank"
+                >Scripture</a
+              >
+            </li>
           </ul>
-       </nav>
+        </nav>
       </header>
-  <main>
-          <h2>WDD 230: Web Frontend Development I</h2>
-          <hr>
-      <div id="cards">
+      <main>
+        <h2>WDD 230: Web Frontend Development I</h2>
+        <hr />
+        <div id="cards">
           <section class="card">
-              <h3>Learning Activities</h3>
-              <ul id="learning">
-                  <li>Week 1: <a href=""></a></li>
-                  <li>Week 2: 
-                      <a href="lesson02/design.html"></a>
-                      <a href=""></a> 
-                      <a href=""></a>
-                  </li>
-              </ul>
+            <h3>Learning Activities</h3>
+            <ul id="learning">
+              <li>Week 1: <a href=""></a></li>
+              <li>
+                Week 2:
+                <a href="lesson02/design.html"></a>
+                <a href=""></a>
+                <a href=""></a>
+              </li>
+            </ul>
           </section>
-          <section class="card ">
-              <h3>Information</h3>
-              <p>Weather: <span id="weather"></span></p>
-              <p>Number of visits: <span id="visits"></span></p>
+          <section class="card">
+            <h3>Information</h3>
+            <p>Weather: <span id="weather"></span></p>
+            <p>Number of visits: <span id="visits"></span></p>
           </section>
-      </div>
-  </main>
+        </div>
+      </main>
       <footer>
-      <p>&copy; <span id="currentYear"></span> - Sayal - Sunsari, Nepal</p>
-      <p id="lastModified"></p>
+        <p>&copy; <span id="currentYear"></span> - Sayal - Sunsari, Nepal</p>
+        <p id="lastModified"></p>
       </footer>
-  </div>
-  <script src="scripts/getDates.js"></script>
-</body>
+    </div>
+    <script src="scripts/getDates.js"></script>
+  </body>
 </html>
