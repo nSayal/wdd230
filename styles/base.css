@@ -1,7 +1,7 @@
 :root{
     --backround-color: #141115 ;
     --header-color: #EFF8E2;
-    --accent-color: #8D6346;
+    --accent-color: #97E7E1;
     --text-color: black;
     --card-color: #ADA8B6;
 }
@@ -36,7 +36,6 @@ ul{
 nav ul{
     list-style: none;
     text-align:center; 
-    background-color: var(--backround-color);
     padding-inline-start: 0px;
 }
 
