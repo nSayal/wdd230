@@ -5,6 +5,9 @@
     --text-color: black;
     --card-color: #ADA8B6;
 }
+a{
+    text-decoration: none;
+}
 
 body{
     font-family: "Raleway", sans-serif;
