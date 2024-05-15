@@ -28,6 +28,24 @@ body{
     border-radius: 10px;
 }
 
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+	right:10px;
+	top: 10px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
 main{
     padding: 1rem; 
 }
@@ -73,7 +91,7 @@ nav ul li:hover{
 }
 
 nav ul li a {
-    display: block;
+    display: none;
     color: var(--backround-color);  
     text-decoration: none;
 }
