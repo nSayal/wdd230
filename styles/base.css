@@ -5,9 +5,7 @@
     --text-color: black;
     --card-color: #ADA8B6;
 }
-a{
-    text-decoration: none;
-}
+
 
 body{
     font-family: "Raleway", sans-serif;
@@ -36,14 +34,6 @@ body{
  	position: absolute;
 	right:10px;
 	top: 10px;
-}
-
-#menu::before {
-	content: "☰";
-}
-
-#menu.open::before {
-	content: "❎";
 }
 
 main{
@@ -91,7 +81,7 @@ nav ul li:hover{
 }
 
 nav ul li a {
-    display: none;
+    display: block;
     color: var(--backround-color);  
     text-decoration: none;
 }
