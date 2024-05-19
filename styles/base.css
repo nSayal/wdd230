@@ -1,140 +1,138 @@
-:root{
-    --backround-color: #141115 ;
+:root {
+    --background-color: #141115;
     --header-color: #EFF8E2;
     --accent-color: #97E7E1;
     --text-color: black;
     --card-color: #ADA8B6;
-}
-
-
-body{
+  }
+  
+  body {
     font-family: "Raleway", sans-serif;
-    background-color: var(--backround-color);
+    background-color: var(--background-color);
     color: var(--text-color);
-} 
-
-#content{
-    max-width: 2000px; 
-    margin: 0 0; 
+  }
+  
+  #content {
+    max-width: 2000px;
+    margin: 0 auto;
     background-color: var(--card-color);
-}
-
-#head {
+  }
+  
+  #head {
     display: flex;
-    text-align: center;
+    align-items: center;
     background-color: var(--header-color);
     border-radius: 10px;
-}
-
-#menu {
-	font-size: 1.5rem;
-	border: 0;
-	background: none;
-	color: #000;
- 	position: absolute;
-	right:10px;
-	top: 10px;
-}
-
-main{
-    padding: 1rem; 
-}
-
-ul{
-    list-style: none; 
-}
-
-nav ul{
+  }
+  
+  #menu {
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    color: #000;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  ul {
     list-style: none;
-    text-align:center; 
-    padding-inline-start: 0px;
-}
-
-header{
-    padding: 1rem; 
-}
-
-header img{
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul {
+    text-align: center;
+  }
+  
+  header {
+    padding: 1rem;
+  }
+  
+  header img {
     height: 150px;
-    margin: 20px; 
-}
-
-header h1{
-    text-align: center;
-    margin-top: 40px;
-    font-family: Oswald;
-    color: var(--backround-color); 
-}
-
-#content nav ul{
-    background-color: var(--accent-color);
-}
-
-nav ul li{
-    padding: 1rem; 
-    width: 100%; 
-}
-
-nav ul li:hover{
-    color:black;
-    background-color: var(--header-color);
-}
-
-nav ul li a {
-    display: block;
-    color: var(--backround-color);  
-    text-decoration: none;
-}
-
-#head h1{
-    width: 600px;
-    margin: 50px 0px;
-}
-
-#head img{
-    height: 150px; 
+    margin: 20px;
     border-radius: 10px;
-    margin: 1rem;
-}
-
-main h2{
+  }
+  
+  header h1 {
     text-align: center;
-}
-
-footer{
-    padding: 1rem; 
-    text-align: center; 
+    margin: 40px 0;
+    font-family: "Oswald", sans-serif;
+    color: var(--background-color);
+  }
+  
+  #content nav ul {
+    background-color: var(--accent-color);
+  }
+  
+  nav ul li {
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  nav ul li:hover {
     background-color: var(--header-color);
-}
-
-footer p{
-    color: var(--backround-color); 
-}
-
-#content main h2{
+  }
+  
+  nav ul li a {
+    color: var(--background-color);
+    text-decoration: none;
+    display: block;
+  }
+  
+  main h2 {
     text-align: center;
-}
-
-#learning{
-    list-style: none;
-}
-
-.card h3{
-    color: var(--backround-color); 
-    margin: 0; 
-    padding: 1rem; 
+  }
+  
+  footer {
+    padding: 1rem;
+    text-align: center;
     background-color: var(--header-color);
-}
-
-.card {
+  }
+  
+  footer p {
+    color: var(--background-color);
+  }
+  
+  .card h2 {
+    color: var(--background-color);
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--header-color);
+  }
+  
+  .card {
     margin: 1rem;
-    border: 1px var(--header-color) solid;
-}
+    border: 1px solid var(--header-color);
+  }
+  
+  .card p {
+    padding: 1rem;
+  }
+  
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  #content main hr {
+    height: 3px;
+    border: none;
+    background-color: var(--header-color);
+  }
+  
+  #menu::before {
+    content: "☰";
+  }
+  
+  #menu.open::before {
+    content: "❎";
+  }
 
-.card p{
-    padding: 1rem; 
-}
-
-#content main hr{
-    height: 3px; 
-}
+  
