@@ -49,11 +49,75 @@
 
   <body>
     <header>
-      
+      <button id="menu"></button>
+      <nav class="navbar">
+        <h1>Alpine Valley Chamber of Commerce</h1>
+        <ul class="navbar-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Join Us</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><label class="switch" id="slider">
+              <input type="checkbox" id="myCheckbox">
+              <span class="slider round"></span>
+            </label>
+            </li>
+        </ul>
+      </nav>
     </header>
-    <main></main>
-    <footer></footer>
-
-    <script></script>
-  </body>
+      <main>
+        <div class="hero" id="hero-image">
+          <img src="https://rexburgchamber.org/wp-content/uploads/2022/03/Rexburg-Temple-air-shot-scaled.jpg" alt="hero image">
+        </div>
+        <div class="grid-container">
+          <div class="top-row">
+          <section class="card" id="current-events">
+              <h3>Current Events</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Adipiscing tristique risus nec feugiat in fermentum. Urna molestie at elementum eu facilisis sed odio. 
+                Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. In cursus turpis massa tincidunt dui ut.</p>
+          </section>
+          <section class="card" id="weather">
+              <h3>Weather</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Adipiscing tristique risus nec feugiat in fermentum. Urna molestie at elementum eu facilisis sed odio. 
+                Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. In cursus turpis massa tincidunt dui ut.</p>
+          </section>
+        </div>
+        <div class="bottom-row">
+          <section class="card" id="card1">
+              <h3>Member Spotlights</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Adipiscing tristique risus nec feugiat in fermentum. deez </p>
+          </section>
+          <section class="card" id="card2">
+            <h3>Member Spotlights</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Adipiscing tristique risus nec feugiat in fermentum. nuts</p>
+          </section>
+          <section class="card" id="card3">
+              <h3>Member Spotlights</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Adipiscing tristique risus nec feugiat in fermentum. suck</p>
+          </section>
+        </div>
+        </div>
+      </main>
+      <footer>
+        <div class="contact-info">
+          <h2>Ithaca Chamber of Commerce</h2>
+          <p>123 Fake Address Rd</p>
+          <p>info@ithacachamber.org</p>
+          <p>(123)-456-7890</p>
+        </div>
+        <div class="dates-container">
+          <p id="copyright"></p>
+          <p id="lastModified"></p>
+        </div>
+      </footer>
+      <script src="scripts/getdates.js"></script>
+      <script src="scripts/menu.js"></script>
+      <script src="scripts/darkmode.js"></script>
+</body>
 </html>
