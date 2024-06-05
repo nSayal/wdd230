@@ -11,6 +11,32 @@
     background-color: var(--background-color);
     color: var(--text-color);
   }
+  picture img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75; 
+  }
+
+
+.hero-label p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.1rem;
+	font-family:"Great Vibes", serif;
+}
   
   #content {
     max-width: 2000px;
