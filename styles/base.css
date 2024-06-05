@@ -17,7 +17,9 @@
     object-fit: cover;
 }
 
-
+.hero-image{
+  position: relative;
+}
 .hero-text {
     position: absolute;
     top: 260px;
@@ -30,12 +32,14 @@
   }
 
 
+
 .hero-label p {
 	margin: 0;
 	padding: .25rem;
 	font-weight: 700;
 	font-size: 1.1rem;
 	font-family:"Great Vibes", serif;
+  position: absolute;
 }
   
   #content {
