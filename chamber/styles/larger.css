@@ -1,0 +1,19 @@
+@media (min-width: 576px) {
+      .navbar {
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between; /* Space between items */
+      }
+  
+      .navbar-items {
+          flex-direction: row;
+      }
+  
+      .navbar-items a {
+          padding: 1rem;
+      }
+  
+      #menu {
+          display: none;
+      }
+  }

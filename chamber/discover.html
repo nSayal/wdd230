@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sayal Neupane" />
+    <meta
+      name="description"
+      content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs"
+    />
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://nsayal.github.io/wdd230/chamber/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Alpine Valley Chamber of Commerce" />
+    <meta
+      property="og:description"
+      content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs"
+    />
+    <meta
+      property="og:image"
+      content="https://rexburgchamber.org/wp-content/uploads/2022/03/Rexburg-Temple-air-shot-scaled.jpg"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="nsayal.github.io" />
+    <meta
+      property="twitter:url"
+      content="https://nsayal.github.io/wdd230/chamber/index.html"
+    />
+    <meta name="twitter:title" content="Alpine Valley Chamber of Commerce" />
+    <meta
+      name="twitter:description"
+      content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs"
+    />
+    <meta
+      name="twitter:image"
+      content="https://rexburgchamber.org/wp-content/uploads/2022/03/Rexburg-Temple-air-shot-scaled.jpg"
+    />
+
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" href="chamber.png" />
+    <title>Alpine Valley Chamber of Commerce</title>
+  </head>
+
+  <body>
+    <header>
+      <button id="menu"></button>
+      <nav class="navbar">
+        <h1>Alpine Valley Chamber of Commerce</h1>
+        <ul class="navbar-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Join Us</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><label class="switch" id="slider">
+              <input type="checkbox" id="myCheckbox">
+              <span class="slider round"></span>
+            </label>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="discover-layout">
+      <aside class="sidebar">
+          <div id="visitMessage"></div>
+          <h2>Information</h2>
+          <p>Welcome to Alpine Valley, a place of scenic beauty and vibrant community life. Here are some key facts and figures:</p>
+          <ul>
+              <li>Population: 15,000</li>
+              <li>Founded: 1890</li>
+              <li>Main Industries: Tourism, Agriculture, Technology</li>
+              <li>Attractions: Alpine Valley Park, Willow Creek Lake, Mountain View Trails</li>
+          </ul>
+          <h3>Upcoming Events</h3>
+          <ul>
+              <li>Farmers Market: Every Saturday</li>
+              <li>Summer Fest: July 15-17</li>
+              <li>Holiday Parade: December 5</li>
+          </ul>
+      </aside>
+      <section class="main-content">
+          <h2>Local Photos</h2>
+          <div class="photo-gallery">
+              <figure>
+                  <img src="images/photo1.jpg" alt="Alpine Valley Park" loading="lazy" />
+                  <figcaption>Alpine Valley Park</figcaption>
+              </figure>
+              <figure>
+                  <img src="images/photo2.jpg" alt="Willow Creek Lake" loading="lazy" />
+                  <figcaption>Willow Creek Lake</figcaption>
+              </figure>
+              <figure>
+                  <img src="images/photo3.jpg" alt="Mountain View Trails" loading="lazy" />
+                  <figcaption>Mountain View Trails</figcaption>
+              </figure>
+              <figure>
+                  <img src="images/photo4.jpg" alt="Downtown Alpine Valley" loading="lazy" />
+                  <figcaption>Downtown Alpine Valley</figcaption>
+              </figure>
+              <figure>
+                  <img src="images/photo5.jpg" alt="Winter Festival" loading="lazy" />
+                  <figcaption>Winter Festival</figcaption>
+              </figure>
+              <figure>
+                  <img src="images/photo6.jpg" alt="Sunset at Willow Creek" loading="lazy" />
+                  <figcaption>Sunset at Willow Creek</figcaption>
+              </figure>
+          </div>
+      </section>
+  </main>
+
+      <footer>
+        <div class="contact-info">
+          <h2>Alpine Valley Chamber of Commerce</h2>
+          <p>123 Fake Address Rd</p>
+          <p>info@#alpinevalleychamber.org</p>
+          <p>4885-545</p>
+        </div>
+        <div class="dates-container">
+          <p id="copyright"></p>
+          <p id="lastModified"></p>
+        </div>
+      </footer>
+      <script src="scripts/getdates.js"></script>
+</body>
+</html>
