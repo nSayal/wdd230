@@ -10,11 +10,12 @@
       line-height: 1.6;
       margin: 0;
       padding: 0;
+      color: white;
   }
   
   header, nav, footer {
       background: var(--primary-color);
-      color: #fff;
+      color: #214E34;
       padding: 10px 0;
       text-align: center;
   }
