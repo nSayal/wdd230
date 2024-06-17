@@ -1,158 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="author" content="Sayal Neupane" />
-      <meta
-        name="description"
-        content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs"
-      />
+      <meta name="description"
+            content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs" />
       <!-- Facebook Meta Tags -->
-      <meta
-        property="og:url"
-        content="https://nsayal.github.io/wdd230/chamber/index.html"
-      />
+      <meta property="og:url" content="https://nsayal.github.io/wdd230/chamber/index.html" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Alpine Valley Chamber of Commerce" />
-      <meta
-        property="og:description"
-        content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs"
-      />
-      <meta
-        property="og:image"
-        content="https://rexburgchamber.org/wp-content/uploads/2022/03/Rexburg-Temple-air-shot-scaled.jpg"
-      />
-  
+      <meta property="og:description"
+            content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs" />
+      <meta property="og:image"
+            content="https://rexburgchamber.org/wp-content/uploads/2022/03/Rexburg-Temple-air-shot-scaled.jpg" />
+
       <!-- Twitter Meta Tags -->
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:domain" content="nsayal.github.io" />
-      <meta
-        property="twitter:url"
-        content="https://nsayal.github.io/wdd230/chamber/index.html"
-      />
+      <meta property="twitter:url" content="https://nsayal.github.io/wdd230/chamber/index.html" />
       <meta name="twitter:title" content="Alpine Valley Chamber of Commerce" />
-      <meta
-        name="twitter:description"
-        content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs"
-      />
-      <meta
-        name="twitter:image"
-        content="https://rexburgchamber.org/wp-content/uploads/2022/03/Rexburg-Temple-air-shot-scaled.jpg"
-      />
-  
+      <meta name="twitter:description"
+            content="Join us at Alpine Valley Chamber of Commerce for vibrant business networking events! Connect with fellow entrepreneurs, access valuable resources, and fuel economic growth in Willow Creek City. #AlpineValleyChamber #WillowCreekBusiness #GrowWithUs" />
+      <meta name="twitter:image"
+            content="https://rexburgchamber.org/wp-content/uploads/2022/03/Rexburg-Temple-air-shot-scaled.jpg" />
+
       <link rel="stylesheet" href="styles/base.css" />
       <link rel="stylesheet" href="styles/larger.css" />
       <link rel="stylesheet" href="styles/normalize.css">
       <link rel="icon" href="chamber.png" />
       <title>Alpine Valley</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            color: white;
-        }
-        .container {
-            display: flex;
-            justify-content: space-between;
-        }
-        .form-container {
-            width: 60%;
-        }
-        .benefits-container {
-            width: 35%;
-            margin-left: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        input, select, textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 20px;
-        }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        .submit-button {
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        .submit-button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+      <style>
+            body {
+                  font-family: Arial, sans-serif;
+                  color: white;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100vh;
+                  margin: 0;
+                  background-color: #282c34;
+            }
+
+            .container {
+                  display: flex;
+                  justify-content: space-between;
+                  background-color: #214E34;
+                  padding: 20px;
+                  border-radius: 8px;
+                  box-shadow: 0 0 10px #214E34;
+                  max-height: 90vh;
+
+                  overflow-y: auto;
+            }
+
+            .form-container {
+                  width: 60%;
+            }
+
+            .benefits-container {
+                  width: 35%;
+                  margin-left: 20px;
+            }
+
+            label {
+                  display: block;
+                  margin-bottom: 10px;
+            }
+
+            input,
+            select,
+            textarea {
+                  width: 100%;
+                  padding: 8px;
+                  margin-bottom: 20px;
+            }
+
+            .form-group {
+                  margin-bottom: 20px;
+            }
+
+            .submit-button {
+                  padding: 10px 20px;
+                  background-color: #007BFF;
+                  color: white;
+                  border: none;
+                  cursor: pointer;
+            }
+
+            .submit-button:hover {
+                  background-color: #0056b3;
+            }
+      </style>
 </head>
+
 <body>
-    <div class="container">
-        <div class="form-container">
-            <form method="get" action="thankyou.html">
-                <div class="form-group">
-                    <label for="firstName">First Name:
-                        <input type="text" id="firstName" name="firstName" required>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="lastName">Last Name:
-                        <input type="text" id="lastName" name="lastName" required>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="title">Title/Position:
-                        <input type="text" id="title" name="title" pattern="[a-zA-Z\s-]{7,}" title="Only alpha characters, hyphens, and spaces with a minimum of seven characters" required>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:
-                        <input type="email" id="email" name="email" placeholder="example@example.com" required>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Mobile Phone:
-                        <input type="tel" id="phone" name="phone" required>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="organizationName">Organization Name:
-                        <input type="text" id="organizationName" name="organizationName" required>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="membershipLevel">Membership Level:
-                        <select id="membershipLevel" name="membershipLevel" required>
-                            <option value="NP">NP Membership (Non-Profit)</option>
-                            <option value="Bronze">Bronze Membership</option>
-                            <option value="Silver">Silver Membership</option>
-                            <option value="Gold">Gold Membership</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="description">Organization Description:
-                        <textarea id="description" name="description"></textarea>
-                    </label>
-                </div>
-                <input type="hidden" id="timestamp" name="timestamp" value="">
-                <div class="form-group">
-                    <input type="submit" value="Submit" class="submit-button">
-                </div>
-            </form>
-        </div>
-        <div class="benefits-container">
-            <h2>Membership Benefits</h2>
-            <ul>
-                <li><strong>NP Membership:</strong> No fee, basic benefits</li>
-                <li><strong>Bronze Membership:</strong> Access to events, training sessions</li>
-                <li><strong>Silver Membership:</strong> Additional advertising, discounts on events</li>
-                <li><strong>Gold Membership:</strong> Premium benefits including spotlight positions on the home page, exclusive event invitations</li>
-            </ul>
-        </div>
-    </div>
-    <script>
-        document.getElementById('timestamp').value = new Date().toISOString();
-    </script>
+      <div class="container">
+            <div class="form-container">
+                  <form method="get" action="thankyou.html">
+                        <div class="form-group">
+                              <label for="firstName">First Name:
+                                    <input type="text" id="firstName" name="firstName" required>
+                              </label>
+                        </div>
+                        <div class="form-group">
+                              <label for="lastName">Last Name:
+                                    <input type="text" id="lastName" name="lastName" required>
+                              </label>
+                        </div>
+                        <div class="form-group">
+                              <label for="title">Title/Position:
+                                    <input type="text" id="title" name="title" pattern="[a-zA-Z\s-]{7,}"
+                                          title="Only alpha characters, hyphens, and spaces with a minimum of seven characters"
+                                          required>
+                              </label>
+                        </div>
+                        <div class="form-group">
+                              <label for="email">Email:
+                                    <input type="email" id="email" name="email" placeholder="example@example.com"
+                                          required>
+                              </label>
+                        </div>
+                        <div class="form-group">
+                              <label for="phone">Mobile Phone:
+                                    <input type="tel" id="phone" name="phone" required>
+                              </label>
+                        </div>
+                        <div class="form-group">
+                              <label for="organizationName">Organization Name:
+                                    <input type="text" id="organizationName" name="organizationName" required>
+                              </label>
+                        </div>
+                        <div class="form-group">
+                              <label for="membershipLevel">Membership Level:
+                                    <select id="membershipLevel" name="membershipLevel" required>
+                                          <option value="NP">NP Membership (Non-Profit)</option>
+                                          <option value="Bronze">Bronze Membership</option>
+                                          <option value="Silver">Silver Membership</option>
+                                          <option value="Gold">Gold Membership</option>
+                                    </select>
+                              </label>
+                        </div>
+                        <div class="form-group">
+                              <label for="description">Organization Description:
+                                    <textarea id="description" name="description"></textarea>
+                              </label>
+                        </div>
+                        <input type="hidden" id="timestamp" name="timestamp" value="">
+                        <div class="form-group">
+                              <input type="submit" value="Submit" class="submit-button">
+                        </div>
+                  </form>
+            </div>
+            <div class="benefits-container">
+                  <h2>Membership Benefits</h2>
+                  <ul>
+                        <li><strong>NP Membership:</strong> No fee, basic benefits</li>
+                        <li><strong>Bronze Membership:</strong> Access to events, training sessions</li>
+                        <li><strong>Silver Membership:</strong> Additional advertising, discounts on events</li>
+                        <li><strong>Gold Membership:</strong> Premium benefits including spotlight positions on the home
+                              page, exclusive event invitations</li>
+                  </ul>
+            </div>
+      </div>
+      <script>
+            document.getElementById('timestamp').value = new Date().toISOString();
+      </script>
 </body>
+
 </html>
