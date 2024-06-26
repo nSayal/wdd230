@@ -159,11 +159,10 @@
   }
   
   #menu::before {
-    content: "☰";s
+    content: "☰";
   }
   
   #menu.open::before {
     content: "❎";
   }
-
   
