@@ -1,168 +1,199 @@
 :root {
-    --background-color: #141115;
-    --header-color: #EFF8E2;
-    --accent-color: #97E7E1;
-    --text-color: black;
-    --card-color: #ADA8B6;
-  }
-  
-  body {
-    font-family: "Raleway", sans-serif;
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
-  picture img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  --background-color: #141115;
+  --header-color: #EFF8E2;
+  --accent-color: #97E7E1;
+  --text-color: black;
+  --card-color: #ADA8B6;
 }
 
-.hero-image{
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero-image {
   position: relative;
 }
+
 .hero-text {
-    position: absolute;
-    top: 260px;
-    left: 200px;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 1.5rem;
-    box-shadow: 0 0 3rem #fff;
-    opacity: 0.75; 
-  }
-
-
+  position: absolute;
+  top: 260px;
+  left: 200px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 3rem #fff;
+  opacity: 0.75; 
+}
 
 .hero-label p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1.1rem;
-	font-family:"Great Vibes", serif;
+  margin: 0;
+  padding: .25rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: "Great Vibes", serif;
   position: absolute;
 }
-  
-  #content {
-    max-width: 2000px;
-    margin: 0 auto;
-    background-color: var(--card-color);
-  }
-  
-  #head {
-    display: flex;
-    align-items: center;
-    background-color: var(--header-color);
-    border-radius: 10px;
-  }
-  
-  #menu {
-    font-size: 1.5rem;
-    border: none;
-    background: none;
-    color: #000;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-  }
-  
-  main {
-    padding: 1rem;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul {
-    text-align: center;
-  }
-  
-  header {
-    padding: 1rem;
-  }
-  
-  header img {
-    height: 150px;
-    margin: 20px;
-    border-radius: 10px;
-  }
-  
-  header h1 {
-    text-align: center;
-    margin: 40px 0;
-    font-family: "Oswald", sans-serif;
-    color: var(--background-color);
-  }
-  
-  #content nav ul {
-    background-color: var(--accent-color);
-  }
-  
-  nav ul li {
-    padding: 1rem;
-    width: 100%;
-  }
-  
-  nav ul li:hover {
-    background-color: var(--header-color);
-  }
-  
-  nav ul li a {
-    color: var(--background-color);
-    text-decoration: none;
-    display: block;
-  }
-  
-  main h2, h3 {
-    text-align: center;
-  }
-  
-  footer {
-    padding: 1rem;
-    text-align: center;
-    background-color: var(--header-color);
-  }
-  
-  footer p {
-    color: var(--background-color);
-  }
-  
-  .card h2,
-  .card h3{
-    color: var(--background-color);
-    margin: 0;
-    padding: 1rem;
-    background-color: var(--header-color);
-  }
-  
-  .card {
-    margin: 1rem;
-    border: 1px solid var(--header-color);
-  }
-  
-  .card p {
-    padding: 1rem;
-  }
-  
-  #cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  #content main hr {
-    height: 3px;
-    border: none;
-    background-color: var(--header-color);
-  }
-  
-  #menu::before {
-    content: "☰";
-  }
-  
-  #menu.open::before {
-    content: "❎";
-  }
-  
+
+#content {
+  max-width: 2000px;
+  margin: 0 auto;
+  background-color: var(--card-color);
+}
+
+#head {
+  display: flex;
+  align-items: center;
+  background-color: var(--header-color);
+  border-radius: 10px;
+}
+
+#menu {
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  color: #000;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+main {
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  text-align: center;
+}
+
+header {
+  padding: 1rem;
+}
+
+header img {
+  height: 150px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  text-align: center;
+  margin: 40px 0;
+  font-family: "Oswald", sans-serif;
+  color: var(--background-color);
+}
+
+#content nav ul {
+  background-color: var(--accent-color);
+}
+
+nav ul li {
+  padding: 1rem;
+  width: 100%;
+}
+
+nav ul li:hover {
+  background-color: var(--header-color);
+}
+
+nav ul li a {
+  color: var(--background-color);
+  text-decoration: none;
+  display: block;
+}
+
+main h2, h3 {
+  text-align: center;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--header-color);
+}
+
+footer p {
+  color: var(--background-color);
+}
+
+.card h2,
+.card h3 {
+  color: var(--background-color);
+  margin: 0;
+  padding: 1rem;
+  background-color: var(--header-color);
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid var(--header-color);
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+  padding: 1rem;
+  color: var(--text-color);
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#content main hr {
+  height: 3px;
+  border: none;
+  background-color: var(--header-color);
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "❎";
+}
+
+.view-toggle {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0099cc;
+}
+

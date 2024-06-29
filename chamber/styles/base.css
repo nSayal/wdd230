@@ -119,6 +119,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    
 }
 
 .switch {
@@ -341,3 +342,115 @@ button {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+
+/* Existing styles */
+
+.grid-view .member {
+    display: inline-block;
+    width: calc(33.333% - 20px);
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.list-view .member {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+
+.member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.member h3 {
+    margin: 10px 0;
+}
+
+.member p {
+    margin: 5px 0;
+}
+
+
+#directory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0; 
+    padding: 1rem;
+    background-color:214E34;
+  }
+  
+  .member {
+    background-color: var(--card-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: calc(33.333% - 1rem); /* Adjust width to fit three cards per row with no gap */
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 1rem; /* Add bottom margin for spacing between rows */
+  }
+  
+  .member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .member h3 {
+    margin: 0.5rem 0;
+    color: var(--header-color);
+  }
+  
+  .member p {
+    margin: 0.5rem 0;
+    color: var(--text-color);
+  }
+  
+  .member a {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  
+  .member a:hover {
+    text-decoration: underline;
+  }
+  
+  .grid-view .member {
+    display: inline-block;
+    
+  }
+  
+  .list-view .member {
+    display: block;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .member {
+        width: calc(50% - 0.5rem); /* Adjust width for two cards per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .member {
+        width: 100%; /* Adjust width for one card per row on very small screens */
+    }
+  }
+  
+  #gridView{
+    border-radius: 10%;
+    background-color: #364156;
+  }
+  #listView{
+    border-radius: 10%;
+    background-color: #364156;
+  }

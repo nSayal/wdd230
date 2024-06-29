@@ -1,0 +1,59 @@
+[
+      {
+          "name": "Company One",
+          "address": "123 Main St, Anytown, USA",
+          "phone": "555-1234",
+          "website": "https://companyone.com",
+          "image": "https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+          "membership_level": "Gold"
+      },
+      {
+          "name": "Company Two",
+          "address": "456 Oak St, Sometown, USA",
+          "phone": "555-5678",
+          "website": "https://companytwo.com",
+          "image": "https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "membership_level": "Silver"
+      },
+      {
+          "name": "Company Three",
+          "address": "789 Pine St, Anycity, USA",
+          "phone": "555-9876",
+          "website": "https://companythree.com",
+          "image": "https://images.pexels.com/photos/273214/pexels-photo-273214.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "membership_level": "Platinum"
+      },
+      {
+          "name": "Company Four",
+          "address": "101 Maple St, Somecity, USA",
+          "phone": "555-2468",
+          "website": "https://companyfour.com",
+          "image": "https://images.pexels.com/photos/7070/space-desk-workspace-coworking.jpg?auto=compress&cs=tinysrgb&w=600",
+          "membership_level": "Gold"
+      },
+      {
+          "name": "Company Five",
+          "address": "202 Birch St, Othertown, USA",
+          "phone": "555-1357",
+          "website": "https://companyfive.com",
+          "image": "https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "membership_level": "Silver"
+      },
+      {
+          "name": "Company Six",
+          "address": "303 Cedar St, Anothertown, USA",
+          "phone": "555-7890",
+          "website": "https://companysix.com",
+          "image": "https://images.pexels.com/photos/3767170/pexels-photo-3767170.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "membership_level": "Bronze"
+      },
+      {
+          "name": "Company Seven",
+          "address": "404 Spruce St, Yetanothertown, USA",
+          "phone": "555-6543",
+          "website": "https://companyseven.com",
+          "image": "https://images.pexels.com/photos/2531025/pexels-photo-2531025.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "membership_level": "Platinum"
+      }
+  ]
+  
