@@ -112,7 +112,7 @@ img {
 }
 
 .card:hover {
-    background-color: lightblue;
+    background-color: green;
 }
 
 footer {
@@ -504,4 +504,52 @@ button {
     border: none;
     font-size: 1.5em;
     cursor: pointer;
+}
+/* Member Spotlight Styles */
+.member-spotlight {
+    background-color: var(--card-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-spotlight img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.member-spotlight h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: var(--text-color);
+}
+
+.member-spotlight p {
+    margin: 5px 0;
+    color: var(--text-color);
+}
+
+.member-spotlight a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.member-spotlight a:hover {
+    text-decoration: underline;
+}
+
+.member-spotlight:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
