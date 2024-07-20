@@ -3,7 +3,7 @@
         {
           "week": "Week 1",
           "links": [
-            {"url": "week01/chamber-site-plan.html", "title": "siteplan"},
+            {"url": "week01/chamber-siteplan.html", "title": "siteplan"},
             {"url": "week01/holy.html", "title": "holy grail"},
             {"url": "https://codepen.io/Purplefall/pen/KKjzydg", "title": "applied js"},
             {"url": "week01/mediaquery.html", "title": "media query"}
