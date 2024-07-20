@@ -1,0 +1,153 @@
+{
+      "wardInfo": [
+          {
+              "familyName": "Anderson",
+              "moveInDate": "2015-09-23",
+              "numberOfPeople": 5,
+              "address": "789 Birch Lane",
+              "contactNumber": "555-8765",
+              "email": "anderson@example.com",
+              "familyMembers": [
+                  {
+                      "name": "Michael Anderson",
+                      "gender": "Male",
+                      "birthdate": "1972-07-14",
+                      "occupation": "Engineer"
+                  },
+                  {
+                      "name": "Sarah Anderson",
+                      "gender": "Female",
+                      "birthdate": "1975-03-29",
+                      "occupation": "Teacher"
+                  },
+                  {
+                      "name": "Emily Anderson",
+                      "gender": "Female",
+                      "birthdate": "2003-08-17",
+                      "schoolGrade": "12th Grade"
+                  },
+                  {
+                      "name": "Jacob Anderson",
+                      "gender": "Male",
+                      "birthdate": "2006-01-05",
+                      "schoolGrade": "9th Grade"
+                  },
+                  {
+                      "name": "Sophia Anderson",
+                      "gender": "Female",
+                      "birthdate": "2010-11-12",
+                      "schoolGrade": "5th Grade"
+                  }
+              ]
+          },
+          {
+              "familyName": "Brown",
+              "moveInDate": "2010-02-18",
+              "numberOfPeople": 4,
+              "address": "123 Elm Street",
+              "contactNumber": "555-4321",
+              "email": "brown@example.com",
+              "familyMembers": [
+                  {
+                      "name": "Robert Brown",
+                      "gender": "Male",
+                      "birthdate": "1968-05-21",
+                      "occupation": "Doctor"
+                  },
+                  {
+                      "name": "Laura Brown",
+                      "gender": "Female",
+                      "birthdate": "1970-10-10",
+                      "occupation": "Nurse"
+                  },
+                  {
+                      "name": "Hannah Brown",
+                      "gender": "Female",
+                      "birthdate": "1998-12-15",
+                      "occupation": "College Student"
+                  },
+                  {
+                      "name": "Daniel Brown",
+                      "gender": "Male",
+                      "birthdate": "2004-04-25",
+                      "schoolGrade": "11th Grade"
+                  }
+              ]
+          },
+          {
+              "familyName": "Clark",
+              "moveInDate": "2020-06-15",
+              "numberOfPeople": 3,
+              "address": "456 Pine Road",
+              "contactNumber": "555-6543",
+              "email": "clark@example.com",
+              "familyMembers": [
+                  {
+                      "name": "James Clark",
+                      "gender": "Male",
+                      "birthdate": "1985-11-11",
+                      "occupation": "Architect"
+                  },
+                  {
+                      "name": "Rebecca Clark",
+                      "gender": "Female",
+                      "birthdate": "1987-09-25",
+                      "occupation": "Graphic Designer"
+                  },
+                  {
+                      "name": "Olivia Clark",
+                      "gender": "Female",
+                      "birthdate": "2015-05-20",
+                      "schoolGrade": "3rd Grade"
+                  }
+              ]
+          },
+          {
+              "familyName": "Davis",
+              "moveInDate": "2018-12-05",
+              "numberOfPeople": 6,
+              "address": "321 Cedar Avenue",
+              "contactNumber": "555-9876",
+              "email": "davis@example.com",
+              "familyMembers": [
+                  {
+                      "name": "William Davis",
+                      "gender": "Male",
+                      "birthdate": "1970-02-02",
+                      "occupation": "Lawyer"
+                  },
+                  {
+                      "name": "Angela Davis",
+                      "gender": "Female",
+                      "birthdate": "1972-08-08",
+                      "occupation": "Chef"
+                  },
+                  {
+                      "name": "Ethan Davis",
+                      "gender": "Male",
+                      "birthdate": "2000-01-01",
+                      "occupation": "Software Developer"
+                  },
+                  {
+                      "name": "Madison Davis",
+                      "gender": "Female",
+                      "birthdate": "2002-03-03",
+                      "occupation": "College Student"
+                  },
+                  {
+                      "name": "Ava Davis",
+                      "gender": "Female",
+                      "birthdate": "2005-06-06",
+                      "schoolGrade": "10th Grade"
+                  },
+                  {
+                      "name": "Mason Davis",
+                      "gender": "Male",
+                      "birthdate": "2008-09-09",
+                      "schoolGrade": "7th Grade"
+                  }
+              ]
+          }
+      ]
+  }
+  
