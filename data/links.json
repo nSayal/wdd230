@@ -1,0 +1,46 @@
+{
+      "weeks": [
+        {
+          "week": "Week 1",
+          "links": [
+            {"url": "week01/chamber-site-plan.html", "title": "site-plan"},
+            {"url": "week01/holy.html", "title": "holy grail"},
+            {"url": "https://codepen.io/Purplefall/pen/KKjzydg", "title": "applied js"},
+            {"url": "week01/mediaquery.html", "title": "media query"}
+          ]
+        },
+        {
+          "week": "Week 2",
+          "links": [
+            {"url": "week02/design.html", "title": "design"},
+            {"url": "https://codepen.io/Purplefall/pen/qBGdboO", "title": "Hamburger Menu"},
+            {"url": "week02/bom.html", "title": "Book of Mormon"}
+          ]
+        },
+        {
+          "week": "Week 3",
+          "links": [
+            {"url": "week03/lazyload.html", "title": "lazy load"},
+            {"url": "week03/responsive.html", "title": "responsive"}
+          ]
+        },
+        {
+          "week": "Week 4",
+          "links": [
+            {"url": "https://codepen.io/Purplefall/pen/MWMyOov", "title": "pseudo classes"},
+            {"url": "week04/form.html", "title": "form"},
+            {"url": "week04/tablebuild.html", "title": "tablebuild"}
+          ]
+        },
+        {
+          "week": "Week 5",
+          "links": [
+            {"url": "https://codepen.io/Purplefall/pen/ExBKboR", "title": "pseudo element"},
+            {"url": "week05/example.json", "title": "example json"},
+            {"url": "week05/weather/weather.html", "title": "working weather"},
+            {"url": "week05/prophets/prophets.html", "title": "prophets"}
+          ]
+        }
+      ]
+    }
+    

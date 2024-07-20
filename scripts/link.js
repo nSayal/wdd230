@@ -1,35 +1,31 @@
-const baseURL = 'https://your-github-pages-url/';
-const linksURL = `${baseURL}data/links.json`;
+const baseURL = "https://nsayal.github.io/wdd230/";
+const linksURL = `${}data/links.json`;
 
 async function getLinks() {
-    try {
-        const response = await fetch(linksURL);
-        const data = await response.json();
-        displayLinks(data.weeks);
-    } catch (error) {
-        console.error('Error fetching links:', error);
-    }
+  const response = await fetch(linksURL);
+  const data = await response.json();
+  displayLinks(data);
 }
 
 function displayLinks(weeks) {
-    const learningElement = document.getElementById('learning');
-    learningElement.innerHTML = '';
+  const learningList = document.getElementById('learning');
+  learningList.innerHTML = '';  // Clear existing content
 
-    weeks.forEach(week => {
-        const weekItem = document.createElement('li');
-        weekItem.textContent = `${week.week}: `;
-        
-        week.links.forEach(link => {
-            const linkElement = document.createElement('a');
-            linkElement.href = link.url;
-            linkElement.textContent = link.title;
-            weekItem.appendChild(linkElement);
-            weekItem.appendChild(document.createTextNode(', '));
-        });
+  weeks.weeks.forEach(week => {
+    const weekItem = document.createElement('li');
+    weekItem.textContent = `${week.week}: `;
+    
+    week.links.forEach(link => {
+      const anchor = document.createElement('a');
+      anchor.href = link.url;
+      anchor.textContent = link.title;
+      anchor.style.marginRight = '10px';
 
-        weekItem.lastChild.remove(); // Remove the last comma
-        learningElement.appendChild(weekItem);
+      weekItem.appendChild(anchor);
     });
+
+    learningList.appendChild(weekItem);
+  });
 }
 
 getLinks();
