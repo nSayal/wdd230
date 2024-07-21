@@ -629,3 +629,65 @@ button {
     text-align: center;
     font-size: 16px;
 }
+
+
+.join_body {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #214E34;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #214E34;
+    max-height: 90vh;
+
+    overflow-y: auto;
+}
+
+.form-container {
+    width: 60%;
+}
+
+.benefits-container {
+    width: 35%;
+    margin-left: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
